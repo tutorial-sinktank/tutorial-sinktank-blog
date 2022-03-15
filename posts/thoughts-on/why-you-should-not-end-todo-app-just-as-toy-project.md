@@ -47,7 +47,7 @@ This process is a bit tricky and you may need to spend some money on that(develo
 
 Now you know that what you can do with your simple todo app, it’s your choice now. I recommend you to go around the full journey. I also did that and it’s on both on Google Play Store and Apple App store. In case if you wonder, what outcome will look like, I’ll leave a link down below. It’s free.
 
-![hellotodo](https://pbs.twimg.com/media/FNIgKI3VgAEBTcz?format=jpg&name=large)[https://pbs.twimg.com/media/FNIgKI3VgAEBTcz?format=jpg&name=large](https://pbs.twimg.com/media/FNIgKI3VgAEBTcz?format=jpg&name=large)
+![hellotodo](https://pbs.twimg.com/media/FNIgKI3VgAEBTcz?format=jpg&name=large)
 
 Website : [](https://hellotodo.io/)[https://hellotodo.io/](https://hellotodo.io/)
 
