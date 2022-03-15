@@ -15,7 +15,7 @@ Many people recommand todo app as a intro project for a new language or a coding
 
 In some sense, yes, I agree. But I don’t think you should not build your todo app because is so common these day. If you observe this problem carefully, you will find that many of those who build their todo app stop the project after it works properly. I think the problem is this. There’re so much beyond that, but they’re not willing to push a little farther.
 
-# What should you to after your todo app is working
+# What should you do after your todo app is working
 
 ![https://images.unsplash.com/photo-1620662736427-b8a198f52a4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80](https://images.unsplash.com/photo-1620662736427-b8a198f52a4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80)
 
