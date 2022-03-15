@@ -1,0 +1,9 @@
+
+.post-thumbnail.wrapper {
+    @min-h-[5em];
+    img {
+        @apply m-auto;
+        @apply w-[90%];
+        @apply aspect-auto;
+    }
+}

@@ -1,0 +1,46 @@
+
+
+/* basic and english and latin... */
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firamono/v12/N0bX2SlFPv1weGeLZDtgJv7S.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hanguel */
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nanummyeongjo/v19/9Btx3DZF0dXLMZlywRbVRNhxy1LuEGI-gZ_Ll9dMHVruCTvHYAnNT2g.0.woff2) format('woff2');
+  unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+/* chinese */
+@font-face {
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notoseriftc/v20/XLYgIZb5bJNDGYxLBibeHZ0BhnJsUnN3PrBufRbmGqUtcg4pzRPk5AEpzv6YzI9aTbOhf6M.6.woff2) format('woff2');
+  unicode-range: U+ff78-ff7e, U+ff80-ff86, U+ff89-ff94, U+ff97-ff9e, U+ffb9, U+ffe0-ffe3, U+ffe9, U+ffeb, U+ffed, U+fffc, U+1d7c7, U+1f004, U+1f0cf, U+1f141-1f142, U+1f150, U+1f154, U+1f158, U+1f15b, U+1f15d-1f15e, U+1f162-1f163, U+1f170-1f171, U+1f174, U+1f177-1f178, U+1f17d-1f17f, U+1f192-1f195, U+1f197-1f19a, U+1f1e6-1f1f5, U+1f1f7-1f1ff, U+1f21a, U+1f22f, U+1f232-1f237, U+1f239-1f23a, U+1f250-1f251, U+1f300, U+1f302-1f319;
+}
+/* japanese */
+@font-face {
+  font-family: 'Zen Kaku Gothic Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zenkakugothicantique/v7/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB21-ltQKhYvUbFlj7bzN2DjeYWqumVE-qzQ.2.woff2) format('woff2');
+  unicode-range: U+ffd7, U+ffda-ffdc, U+ffe0-ffe2, U+ffe4, U+ffe6, U+ffe8-ffee, U+1f100-1f10c, U+1f110-1f16c, U+1f170-1f1ac, U+1f200-1f202, U+1f210-1f234;
+}
+
+body {
+    font-family: 'Fira Mono', 'Zen Kaku Gothic Antique', 'Noto Serif TC', 'Nanum Myeongjo', sans-serif;
+}
+
+* {
+    font-family: 'Fira Mono', 'Zen Kaku Gothic Antique', 'Noto Serif TC', 'Nanum Myeongjo', sans-serif;
+}

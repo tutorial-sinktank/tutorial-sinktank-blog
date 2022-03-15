@@ -1,0 +1,29 @@
+
+.log-list.outer.wrapper {
+    @apply w-full;
+    @apply min-h-[70vh];
+    @apply flex flex-row place-content-center items-start;
+}
+
+.log-list.inner.wrapper {
+    @apply w-full md:w-[80%] lg:w-[60%];
+    @apply h-max;
+}
+
+.log.line {
+    @apply text-sm md:text-base;
+    @apply max-w-full;
+    @apply truncate;
+}
+
+.log.line::before {
+    display: inline-block;
+    width: 2.3rem;
+    content: attr(idx);
+    background-color: #444444ff;
+    @apply p-2;
+    @apply text-white;
+    @apply mr-4;
+    @apply h-fit;
+}
+

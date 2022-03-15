@@ -1,0 +1,69 @@
+
+.block-screen {
+    @apply block;
+    @apply w-full;
+    @apply h-full;
+    @apply bg-transparent;
+    @apply fixed;
+    z-index: 199;
+}
+
+.block-screen.unblock {
+    display: none;
+}
+
+aside {
+    background-color: #666666ff;
+    color: #ffffff;
+    @apply px-4;
+    @apply pl-[5%] md:pl-[2.5%];
+    @apply py-[20%];
+    @apply w-[32%];
+    @apply min-w-[15em];
+    @apply max-w-[20em];
+    @apply h-screen;
+    -webkit-transition: left 2s;
+    transition: left 1s;
+    @apply fixed top-0;
+    z-index: 200;
+    left: -100%;
+}
+
+aside > nav {
+    @apply w-[100%];
+    @apply h-[100%];
+}
+
+aside > nav > a {
+    text-decoration: none;
+}
+
+.side-navbar.show {
+    left: 0%;
+}
+
+.side-navbar.hide {
+    left: -100%;
+}
+
+.topnav.wrapper {
+    z-index: 101;
+    @apply relative;
+    @apply bg-white;
+    @apply min-h-[4rem] md:min-h-[1em];
+    @apply h-fit;
+    @apply w-full;
+    @apply fixed top-0 left-0;
+    @apply flex flex-row-reverse place-content-end items-end;
+    @apply px-[5%];
+    @apply py-[2.5%];
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    -webkit-align-items: flex-end;
+    .icon-button {
+        z-index: 104;
+        @apply relative;
+        @apply w-fit;
+    }
+}
+

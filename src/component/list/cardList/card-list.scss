@@ -1,0 +1,26 @@
+
+.card-list.wrapper {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8;
+    @apply h-fit;
+    @apply min-h-[70vh];
+    @apply w-full;
+}
+
+.card.wrapper {
+    background-color: #8080802f;
+    @apply min-w-[10rem];
+    @apply min-h-[25%];
+}
+
+.card.thumbnail {
+    @apply aspect-square;
+}
+
+.card.title {
+    @apply inline-block;
+    @apply w-full;
+    @apply p-4;
+    @apply h-[2.5rem];
+    @apply truncate;
+    @apply text-base;
+}

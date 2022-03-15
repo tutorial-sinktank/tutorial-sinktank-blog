@@ -1,0 +1,16 @@
+.pagination.wrapper {
+    @apply flex flex-row place-content-center items-center;
+    @apply py-[2em];
+}
+
+.pagination.button {
+    @apply w-[2em];
+}
+
+.pagination.button.left {
+
+}
+
+.pagination.button.right {
+
+}

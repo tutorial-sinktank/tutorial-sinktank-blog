@@ -1,0 +1,23 @@
+
+.pagination-page-number.wrapper {
+    flex: 4;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-page-number.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5em;
+    padding: 0 0.5em;
+    font-size: 2.2rem;
+    color: #44444471;
+}
+
+.pagination-page-number.button.selected {
+    opacity: 1 !important;
+    color: #444444ff;
+}

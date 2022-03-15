@@ -1,0 +1,47 @@
+
+.footer.wrapper {
+    @apply w-full;
+    @apply min-h-[3em];
+    @apply mt-5;
+    @apply px-[10%];
+    @apply py-2;
+    @apply bg-white;
+    @apply flex flex-col place-content-center items-center;
+}
+
+.footer.content.wrapper {
+    @apply min-w-[50%];
+    @apply max-w-[80%];
+    @apply w-fit;
+    @apply h-max;
+
+    & > p {
+        color: #44444471;
+        @apply w-full;
+        @apply text-[0.75rem];
+        @apply text-center;
+    }
+}
+
+.footer.blog-name {
+
+}
+
+.footer.blog-owner {
+
+}
+
+.footer.related-link {
+    @apply text-left;
+}
+
+.footer.copyright.wrapper {
+
+}
+
+.footer.copyright > p {
+    color: #44444471;
+    @apply w-full;
+    @apply text-[0.75rem];
+    @apply text-center;
+}

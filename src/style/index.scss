@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nanum+Myeongjo&family=Noto+Serif+TC&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, #___gatsby {
+    @apply h-full;
+}

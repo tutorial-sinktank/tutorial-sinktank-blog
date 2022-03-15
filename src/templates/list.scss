@@ -1,0 +1,30 @@
+
+.list-button.wrapper {
+    @apply w-full;
+    @apply flex flex-row-reverse;
+    @apply mb-4;
+}
+
+button.list-button {
+    @apply w-[2em];
+    @apply h-fit;
+}
+
+.list-button.image {
+    @apply min-w-[2em];
+    @apply max-w-[5%];
+}
+
+.list-button.image.card {
+}
+
+.list-button.image.log {
+}
+
+.list-button.image.show {
+    display: block !important;
+}
+
+.list-button.image.hide {
+    display: none !important;
+}

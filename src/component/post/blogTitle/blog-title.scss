@@ -1,0 +1,21 @@
+
+.post-info.wrapper {
+    @apply w-full;
+    @apply min-h-[4em];
+    @apply px-[5%];
+    @apply py-[2em];
+    @apply mb-4;
+}
+
+.post-info > .title {
+    @apply w-full;
+    @apply text-xl md:text-2xl lg:text-4xl;
+}
+
+.post-info > .details {
+    @apply text-gray-400;
+     & > p {
+        @apply text-[0.65rem] md:text-sm;
+        text-align: end;
+    }
+}
