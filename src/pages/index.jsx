@@ -9,7 +9,7 @@ const IndexPage = ({ data, location }) => {
 
 export const query = graphql`
 query ($limit: Int! = 10, $skip: Int! =0, $category: String = "///i") {
-        blogs: allMarkdownRemark(limit: $limit, skip: $skip, filter: {frontmatter: {category: {regex: $category}}}) {
+        blogs: allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }, limit: $limit, skip: $skip, filter: {frontmatter: {category: {regex: $category}}}) {
             nodes {
                   id
                   frontmatter {
