@@ -5,6 +5,7 @@ import BlogTitle from "../component/post/blogTitle/BlogTitle";
 import BlogContent from "../component/post/blogContent/BlogContent";
 import Thumbnail from "../component/post/thumbnail/Thumbnail";
 import "./post.scss";
+import Comment from "../component/Comment/Comment";
 
 const Template = ({ data }) => {
     const { markdownRemark: { frontmatter, html } } = data;
@@ -18,6 +19,7 @@ const Template = ({ data }) => {
             <BlogTitle info={frontmatter} />
             <Thumbnail src={frontmatter.thumbnail} />
             <BlogContent htmlContent={html} />
+            <Comment />
         </div>
     );
 };
