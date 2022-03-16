@@ -3,8 +3,8 @@ category: /Flutter
 slug: /posts/flutter/how-to-implement-cloud-drive-backup-in-flutter
 date: 2022-03-16
 title: How to implement cloud drive backup in Flutter(android, ios)
-tags: 
-thumbnail: https://images.unsplash.com/photo-1534330207526-8e81f10ec6fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+tags: flutter,dart,google,drive,icloud,backup,code,explain,tutorial
+thumbnail: https://miro.medium.com/max/1348/1*IIyrjJU2V8IgPUZ1aoiasw.png
 ---
 
 # Prerequisite
@@ -23,11 +23,11 @@ thumbnail: https://images.unsplash.com/photo-1534330207526-8e81f10ec6fc?ixlib=rb
 
 1. On a search bar, type `google drive` and select below.
 
-![스크린샷 2022-03-16 오후 5.39.00.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fcb8c6cf-c152-4680-b836-8e063ca84c0d/스크린샷_2022-03-16_오후_5.39.00.png)
+![스크린샷 2022-03-16 오후 5.39.00.png](https://miro.medium.com/max/1348/1*IIyrjJU2V8IgPUZ1aoiasw.png)
 
 1. Click Enable.
 
-![스크린샷 2022-03-16 오후 5.40.18.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e32ace3-4c76-4d14-b3fb-7171d8a409f8/스크린샷_2022-03-16_오후_5.40.18.png)
+![스크린샷 2022-03-16 오후 5.40.18.png](https://miro.medium.com/max/1400/1*vaivoVGohVBJ48r2mDyykQ.png)
 
 # IOS : Set up on an Apple App Store Connect
 
@@ -37,18 +37,18 @@ thumbnail: https://images.unsplash.com/photo-1534330207526-8e81f10ec6fc?ixlib=rb
 
 1. On your account page, select `Certificates, IDs & Profiles` → `Identifiers`, make sure you have you app id.
 
-   ![스크린샷 2022-03-16 오후 5.48.29.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a4f73e3-14ef-49f9-b03b-19606276e840/스크린샷_2022-03-16_오후_5.48.29.png)
+   ![스크린샷 2022-03-16 오후 5.48.29.png](https://miro.medium.com/max/1036/1*wrHGjdJKG-_wLo8fgRmhww.png)
 
 
-![스크린샷 2022-03-16 오후 5.49.25.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c6d3209-e561-4453-8b4f-b19f19f7c70b/스크린샷_2022-03-16_오후_5.49.25.png)
+![스크린샷 2022-03-16 오후 5.49.25.png](https://miro.medium.com/max/1400/1*949v6iYSztCUg7sl5keh-w.png)
 
 1. On right side dropdown, select `iCloud Containers`
 
-   ![스크린샷 2022-03-16 오후 5.50.01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad7586ee-ce70-4846-981e-63d2ffeb183c/스크린샷_2022-03-16_오후_5.50.01.png)
+   ![스크린샷 2022-03-16 오후 5.50.01.png](https://miro.medium.com/max/980/1*ijVGEkeUPZ1oeamS3KXSmA.png)
 
-2. Click blue plus buttom to create iCloud Container identifier.
+2. Click blue plus button to create iCloud Container identifier.
 
-   ![스크린샷 2022-03-16 오후 5.50.26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcc34991-4114-4f91-b6fb-00302a232094/스크린샷_2022-03-16_오후_5.50.26.png)
+   ![스크린샷 2022-03-16 오후 5.50.26.png](https://miro.medium.com/max/772/1*fvoH3upAclhdsKWVGzB9cA.png)
 
 3. Note that your iCloud Container identifier should have a form like below.
 
@@ -61,7 +61,7 @@ iCloud.com.example.yourappname
 3. Select your target app id to edit.
 4. On `Capabilities`, check iCloud and click Edit button
 
-   ![스크린샷 2022-03-16 오후 5.57.40.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9398ab71-3e7a-44db-bdee-099e1d0c9f42/스크린샷_2022-03-16_오후_5.57.40.png)
+   ![스크린샷 2022-03-16 오후 5.57.40.png](https://miro.medium.com/max/1400/1*-73ZDVt9-ixKIGAkQS4VXA.png)
 
 5. Select your iCloud Container identifier
 6. Save.
@@ -70,7 +70,7 @@ iCloud.com.example.yourappname
 
 ## Install packages
 
-1. For google drive
+1. For Google Drive
 
     ```bash
     flutter pub add google_sign_in
